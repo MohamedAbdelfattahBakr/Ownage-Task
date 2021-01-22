@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		941D2F877A54798B7BB8B8FB /* Pods_Owange_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC6899116961C4728E3ABA3 /* Pods_Owange_Task.framework */; };
 		A17FA2E325BB17FC0094FCBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2E225BB17FC0094FCBC /* AppDelegate.swift */; };
 		A17FA2E525BB17FC0094FCBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2E425BB17FC0094FCBC /* SceneDelegate.swift */; };
-		A17FA2E725BB17FC0094FCBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2E625BB17FC0094FCBC /* ViewController.swift */; };
 		A17FA2EA25BB17FC0094FCBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17FA2E825BB17FC0094FCBC /* Main.storyboard */; };
 		A17FA2EC25BB17FD0094FCBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17FA2EB25BB17FD0094FCBC /* Assets.xcassets */; };
 		A17FA2EF25BB17FD0094FCBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17FA2ED25BB17FD0094FCBC /* LaunchScreen.storyboard */; };
 		A17FA2FA25BB17FD0094FCBC /* Owange_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2F925BB17FD0094FCBC /* Owange_TaskTests.swift */; };
 		A17FA30525BB17FD0094FCBC /* Owange_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA30425BB17FD0094FCBC /* Owange_TaskUITests.swift */; };
+		A1B9125825BB2EFE00AC9D21 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B9125725BB2EFE00AC9D21 /* Color.xcassets */; };
+		A1B9126125BB2F9C00AC9D21 /* DependencyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9126025BB2F9C00AC9D21 /* DependencyFactory.swift */; };
+		A1B9126925BB301800AC9D21 /* BaseFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9126825BB301800AC9D21 /* BaseFactory.swift */; };
+		A1B9127A25BB30B400AC9D21 /* RepositoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9127925BB30B400AC9D21 /* RepositoriesViewModel.swift */; };
+		A1B9128225BB30C200AC9D21 /* RepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9128125BB30C200AC9D21 /* RepositoriesViewController.swift */; };
+		A1B9128725BB30D300AC9D21 /* RepositoriesServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9128625BB30D300AC9D21 /* RepositoriesServiceProtocol.swift */; };
+		A1B9128E25BB316300AC9D21 /* RepositoriesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9128D25BB316300AC9D21 /* RepositoriesAPI.swift */; };
+		A1B9129725BB318500AC9D21 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9129625BB318500AC9D21 /* NetworkManager.swift */; };
+		A1B9129F25BB31FC00AC9D21 /* RepositoriesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9129E25BB31FC00AC9D21 /* RepositoriesCoordinator.swift */; };
+		A1B912A425BB323A00AC9D21 /* RepositoriesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B912A325BB323A00AC9D21 /* RepositoriesFactory.swift */; };
+		A1B912A925BB339000AC9D21 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B912A825BB339000AC9D21 /* BaseCoordinator.swift */; };
 		A6CCEB48391D43478B0C71E1 /* Pods_Owange_Task_Owange_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C583347A03492D54A37CDA /* Pods_Owange_Task_Owange_TaskUITests.framework */; };
 		D8F42CF0BD061645F99904CA /* Pods_Owange_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5C2C11017733586094F3AA /* Pods_Owange_TaskTests.framework */; };
 /* End PBXBuildFile section */
@@ -47,7 +57,6 @@
 		A17FA2DF25BB17FC0094FCBC /* Owange-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Owange-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17FA2E225BB17FC0094FCBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A17FA2E425BB17FC0094FCBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A17FA2E625BB17FC0094FCBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A17FA2E925BB17FC0094FCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A17FA2EB25BB17FD0094FCBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A17FA2EE25BB17FD0094FCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +67,17 @@
 		A17FA30025BB17FD0094FCBC /* Owange-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Owange-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17FA30425BB17FD0094FCBC /* Owange_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owange_TaskUITests.swift; sourceTree = "<group>"; };
 		A17FA30625BB17FD0094FCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B9125725BB2EFE00AC9D21 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		A1B9126025BB2F9C00AC9D21 /* DependencyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyFactory.swift; sourceTree = "<group>"; };
+		A1B9126825BB301800AC9D21 /* BaseFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFactory.swift; sourceTree = "<group>"; };
+		A1B9127925BB30B400AC9D21 /* RepositoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesViewModel.swift; sourceTree = "<group>"; };
+		A1B9128125BB30C200AC9D21 /* RepositoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesViewController.swift; sourceTree = "<group>"; };
+		A1B9128625BB30D300AC9D21 /* RepositoriesServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesServiceProtocol.swift; sourceTree = "<group>"; };
+		A1B9128D25BB316300AC9D21 /* RepositoriesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesAPI.swift; sourceTree = "<group>"; };
+		A1B9129625BB318500AC9D21 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A1B9129E25BB31FC00AC9D21 /* RepositoriesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesCoordinator.swift; sourceTree = "<group>"; };
+		A1B912A325BB323A00AC9D21 /* RepositoriesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesFactory.swift; sourceTree = "<group>"; };
+		A1B912A825BB339000AC9D21 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		BE192A0E356641477BB42027 /* Pods-Owange-Task-Owange-TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task-Owange-TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Owange-Task-Owange-TaskUITests/Pods-Owange-Task-Owange-TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FD3C0B288003BB792C4DF113 /* Pods-Owange-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-TaskTests/Pods-Owange-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF5A95B521E16AD84015EBEE /* Pods-Owange-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Task/Pods-Owange-Task.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,13 +146,13 @@
 		A17FA2E125BB17FC0094FCBC /* Owange-Task */ = {
 			isa = PBXGroup;
 			children = (
-				A17FA2E225BB17FC0094FCBC /* AppDelegate.swift */,
-				A17FA2E425BB17FC0094FCBC /* SceneDelegate.swift */,
-				A17FA2E625BB17FC0094FCBC /* ViewController.swift */,
-				A17FA2E825BB17FC0094FCBC /* Main.storyboard */,
-				A17FA2EB25BB17FD0094FCBC /* Assets.xcassets */,
-				A17FA2ED25BB17FD0094FCBC /* LaunchScreen.storyboard */,
-				A17FA2F025BB17FD0094FCBC /* Info.plist */,
+				A1B9125D25BB2F6500AC9D21 /* Dependencies */,
+				A1B9125C25BB2F1400AC9D21 /* Configuration */,
+				A1B9128B25BB313A00AC9D21 /* Network */,
+				A1B9125525BB2ED700AC9D21 /* Support */,
+				A1B9125325BB2EC000AC9D21 /* Model */,
+				A1B9125225BB2EBA00AC9D21 /* Module */,
+				A1B9125125BB2EB400AC9D21 /* Application */,
 			);
 			path = "Owange-Task";
 			sourceTree = "<group>";
@@ -155,6 +175,184 @@
 			path = "Owange-TaskUITests";
 			sourceTree = "<group>";
 		};
+		A1B9125125BB2EB400AC9D21 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A17FA2E225BB17FC0094FCBC /* AppDelegate.swift */,
+				A17FA2E425BB17FC0094FCBC /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A1B9125225BB2EBA00AC9D21 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9127325BB307400AC9D21 /* Repositories */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A1B9125325BB2EC000AC9D21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9125425BB2ED200AC9D21 /* Network */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1B9125425BB2ED200AC9D21 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A1B912AD25BB341D00AC9D21 /* Request */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A1B9125525BB2ED700AC9D21 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A17FA2ED25BB17FD0094FCBC /* LaunchScreen.storyboard */,
+				A1B9125625BB2EE800AC9D21 /* Assets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		A1B9125625BB2EE800AC9D21 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				A17FA2EB25BB17FD0094FCBC /* Assets.xcassets */,
+				A1B9125725BB2EFE00AC9D21 /* Color.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		A1B9125C25BB2F1400AC9D21 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				A17FA2F025BB17FD0094FCBC /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		A1B9125D25BB2F6500AC9D21 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9126025BB2F9C00AC9D21 /* DependencyFactory.swift */,
+				A1B9125F25BB2F7E00AC9D21 /* Factory */,
+				A1B9125E25BB2F7400AC9D21 /* Coordinator */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		A1B9125E25BB2F7400AC9D21 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A1B912A825BB339000AC9D21 /* BaseCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A1B9125F25BB2F7E00AC9D21 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9126825BB301800AC9D21 /* BaseFactory.swift */,
+				A1B912A325BB323A00AC9D21 /* RepositoriesFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		A1B9127325BB307400AC9D21 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9127825BB309A00AC9D21 /* Service */,
+				A1B9127725BB309200AC9D21 /* Controller */,
+				A1B9127625BB308E00AC9D21 /* View */,
+				A1B9127525BB308800AC9D21 /* ViewModel */,
+				A1B9127425BB308200AC9D21 /* Coordinator */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		A1B9127425BB308200AC9D21 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9129E25BB31FC00AC9D21 /* RepositoriesCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A1B9127525BB308800AC9D21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9127925BB30B400AC9D21 /* RepositoriesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A1B9127625BB308E00AC9D21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1B912AE25BB342F00AC9D21 /* CustomCell */,
+				A17FA2E825BB17FC0094FCBC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1B9127725BB309200AC9D21 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9128125BB30C200AC9D21 /* RepositoriesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1B9127825BB309A00AC9D21 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9128625BB30D300AC9D21 /* RepositoriesServiceProtocol.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A1B9128B25BB313A00AC9D21 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9129525BB316D00AC9D21 /* NetworkManager */,
+				A1B9128C25BB315100AC9D21 /* API */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A1B9128C25BB315100AC9D21 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9128D25BB316300AC9D21 /* RepositoriesAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		A1B9129525BB316D00AC9D21 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9129625BB318500AC9D21 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		A1B912AD25BB341D00AC9D21 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		A1B912AE25BB342F00AC9D21 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
 		F48BF64F26876529307B32C5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +363,6 @@
 				FD3C0B288003BB792C4DF113 /* Pods-Owange-TaskTests.debug.xcconfig */,
 				2F4553428ABD22FF7C192DD9 /* Pods-Owange-TaskTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -180,6 +377,7 @@
 				A17FA2DB25BB17FC0094FCBC /* Sources */,
 				A17FA2DC25BB17FC0094FCBC /* Frameworks */,
 				A17FA2DD25BB17FC0094FCBC /* Resources */,
+				EDA8BF6B7CE709DFEC874ABE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +415,7 @@
 				A17FA2FC25BB17FD0094FCBC /* Sources */,
 				A17FA2FD25BB17FD0094FCBC /* Frameworks */,
 				A17FA2FE25BB17FD0094FCBC /* Resources */,
+				DED1DC56E16CE44C8CC8FC5B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -276,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A17FA2EF25BB17FD0094FCBC /* LaunchScreen.storyboard in Resources */,
+				A1B9125825BB2EFE00AC9D21 /* Color.xcassets in Resources */,
 				A17FA2EC25BB17FD0094FCBC /* Assets.xcassets in Resources */,
 				A17FA2EA25BB17FC0094FCBC /* Main.storyboard in Resources */,
 			);
@@ -342,6 +542,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DED1DC56E16CE44C8CC8FC5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Owange-Task-Owange-TaskUITests/Pods-Owange-Task-Owange-TaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Owange-Task-Owange-TaskUITests/Pods-Owange-Task-Owange-TaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Owange-Task-Owange-TaskUITests/Pods-Owange-Task-Owange-TaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA8BF6B7CE709DFEC874ABE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Owange-Task/Pods-Owange-Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Owange-Task/Pods-Owange-Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Owange-Task/Pods-Owange-Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F9C01A2AC9763EA4D0B3414F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,9 +605,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A17FA2E725BB17FC0094FCBC /* ViewController.swift in Sources */,
+				A1B9129725BB318500AC9D21 /* NetworkManager.swift in Sources */,
+				A1B9126925BB301800AC9D21 /* BaseFactory.swift in Sources */,
+				A1B9126125BB2F9C00AC9D21 /* DependencyFactory.swift in Sources */,
+				A1B9128E25BB316300AC9D21 /* RepositoriesAPI.swift in Sources */,
 				A17FA2E325BB17FC0094FCBC /* AppDelegate.swift in Sources */,
+				A1B9127A25BB30B400AC9D21 /* RepositoriesViewModel.swift in Sources */,
+				A1B9128725BB30D300AC9D21 /* RepositoriesServiceProtocol.swift in Sources */,
+				A1B912A925BB339000AC9D21 /* BaseCoordinator.swift in Sources */,
+				A1B9128225BB30C200AC9D21 /* RepositoriesViewController.swift in Sources */,
+				A1B9129F25BB31FC00AC9D21 /* RepositoriesCoordinator.swift in Sources */,
 				A17FA2E525BB17FC0094FCBC /* SceneDelegate.swift in Sources */,
+				A1B912A425BB323A00AC9D21 /* RepositoriesFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +795,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Owange-Task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -571,6 +815,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Owange-Task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

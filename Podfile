@@ -7,6 +7,19 @@ target 'Owange-Task' do
 
   # Pods for Owange-Task
 
+ # Network
+    pod 'Moya'
+    pod 'ObjectMapper'
+    pod 'SDWebImage'
+    pod 'Kingfisher'
+    pod 'Reachability'
+    pod 'Moya-ObjectMapper'
+    pod "PromiseKit"
+    
+  # UI
+    pod 'SkeletonView'
+    pod 'SwiftMessages'
+
   target 'Owange-TaskTests' do
     inherit! :search_paths
     # Pods for testing
