@@ -10,6 +10,8 @@ import PromiseKit
 
 protocol RepositoriesViewModelProtocol: class {
     func fetchRepositories() -> Promise<Void>
+    func getRepositoriesCount() -> Int
+    func getRepositories() -> [RepositoriesResponse]
 }
 protocol RepositoriesCoordinatorProtocol: class {
     func repositoriesFetched()
@@ -17,20 +19,37 @@ protocol RepositoriesCoordinatorProtocol: class {
 
 class RepositoriesViewController: UIViewController {
     
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     var viewModel: RepositoriesViewModelProtocol!
     var coordinator: RepositoriesCoordinatorProtocol!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setup()
         firstly {
             viewModel.fetchRepositories()
         }.done { [weak self] in
-            
+            self?.collectionView.reloadData()
+            self?.coordinator.repositoriesFetched()
         }.catch { error in
             
         }.finally { [weak self] in
             
         }
+    }
+    private func setup() {
+        setupUI()
+        if let flowLayout = collectionView?.collectionViewLayout as? UICollectionViewFlowLayout {
+             flowLayout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
+           }
+    }
+    private func setupUI() {
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.registerNibFor(cellClass: RepositoriesCell.self)
+        collectionView.registerClassFor(cellClass: UICollectionViewCell.self)
+
     }
 
 }

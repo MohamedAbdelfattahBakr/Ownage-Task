@@ -35,6 +35,10 @@
 		A1B912F625BB582500AC9D21 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B912F525BB582500AC9D21 /* UIApplication.swift */; };
 		A1B9131325BB5C7800AC9D21 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9131225BB5C7800AC9D21 /* Constants.swift */; };
 		A1B9131B25BB5C9500AC9D21 /* Repositories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B9131A25BB5C9500AC9D21 /* Repositories.storyboard */; };
+		A1B9134A25BB796500AC9D21 /* RepositoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9134825BB796500AC9D21 /* RepositoriesCell.swift */; };
+		A1B9134B25BB796500AC9D21 /* RepositoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1B9134925BB796500AC9D21 /* RepositoriesCell.xib */; };
+		A1B9135125BB79FC00AC9D21 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9135025BB79FC00AC9D21 /* UICollectionView.swift */; };
+		A1B9135C25BB7A8500AC9D21 /* RepositoriesViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9135B25BB7A8500AC9D21 /* RepositoriesViewController+CollectionView.swift */; };
 		A6CCEB48391D43478B0C71E1 /* Pods_Owange_Task_Owange_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C583347A03492D54A37CDA /* Pods_Owange_Task_Owange_TaskUITests.framework */; };
 		D8F42CF0BD061645F99904CA /* Pods_Owange_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5C2C11017733586094F3AA /* Pods_Owange_TaskTests.framework */; };
 /* End PBXBuildFile section */
@@ -96,6 +100,10 @@
 		A1B912F525BB582500AC9D21 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		A1B9131225BB5C7800AC9D21 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A1B9131A25BB5C9500AC9D21 /* Repositories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Repositories.storyboard; sourceTree = "<group>"; };
+		A1B9134825BB796500AC9D21 /* RepositoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesCell.swift; sourceTree = "<group>"; };
+		A1B9134925BB796500AC9D21 /* RepositoriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoriesCell.xib; sourceTree = "<group>"; };
+		A1B9135025BB79FC00AC9D21 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		A1B9135B25BB7A8500AC9D21 /* RepositoriesViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RepositoriesViewController+CollectionView.swift"; sourceTree = "<group>"; };
 		BE192A0E356641477BB42027 /* Pods-Owange-Task-Owange-TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task-Owange-TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Owange-Task-Owange-TaskUITests/Pods-Owange-Task-Owange-TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FD3C0B288003BB792C4DF113 /* Pods-Owange-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-TaskTests/Pods-Owange-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF5A95B521E16AD84015EBEE /* Pods-Owange-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Task/Pods-Owange-Task.release.xcconfig"; sourceTree = "<group>"; };
@@ -322,6 +330,7 @@
 			isa = PBXGroup;
 			children = (
 				A1B9128125BB30C200AC9D21 /* RepositoriesViewController.swift */,
+				A1B9135B25BB7A8500AC9D21 /* RepositoriesViewController+CollectionView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -375,6 +384,8 @@
 		A1B912AE25BB342F00AC9D21 /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
+				A1B9134825BB796500AC9D21 /* RepositoriesCell.swift */,
+				A1B9134925BB796500AC9D21 /* RepositoriesCell.xib */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -382,6 +393,7 @@
 		A1B912EB25BB57CE00AC9D21 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				A1B9134F25BB79EB00AC9D21 /* Extension */,
 				A1B912EC25BB57D200AC9D21 /* Base */,
 				A1B9131225BB5C7800AC9D21 /* Constants.swift */,
 			);
@@ -394,6 +406,14 @@
 				A1B912ED25BB57D900AC9D21 /* BaseNavigationController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		A1B9134F25BB79EB00AC9D21 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9135025BB79FC00AC9D21 /* UICollectionView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		F48BF64F26876529307B32C5 /* Pods */ = {
@@ -519,6 +539,7 @@
 			files = (
 				A17FA2EF25BB17FD0094FCBC /* LaunchScreen.storyboard in Resources */,
 				A1B9125825BB2EFE00AC9D21 /* Color.xcassets in Resources */,
+				A1B9134B25BB796500AC9D21 /* RepositoriesCell.xib in Resources */,
 				A1B9131B25BB5C9500AC9D21 /* Repositories.storyboard in Resources */,
 				A17FA2EC25BB17FD0094FCBC /* Assets.xcassets in Resources */,
 			);
@@ -653,12 +674,15 @@
 				A1B912C325BB522800AC9D21 /* Network+Repositories.swift in Sources */,
 				A1B9126925BB301800AC9D21 /* BaseFactory.swift in Sources */,
 				A1B9126125BB2F9C00AC9D21 /* DependencyFactory.swift in Sources */,
+				A1B9134A25BB796500AC9D21 /* RepositoriesCell.swift in Sources */,
+				A1B9135125BB79FC00AC9D21 /* UICollectionView.swift in Sources */,
 				A1B9128E25BB316300AC9D21 /* RepositoriesAPI.swift in Sources */,
 				A1B912EE25BB57D900AC9D21 /* BaseNavigationController.swift in Sources */,
 				A1B912CB25BB530A00AC9D21 /* MoyaProvider+Promise.swift in Sources */,
 				A17FA2E325BB17FC0094FCBC /* AppDelegate.swift in Sources */,
 				A1B912DB25BB537A00AC9D21 /* NetworkError.swift in Sources */,
 				A1B9127A25BB30B400AC9D21 /* RepositoriesViewModel.swift in Sources */,
+				A1B9135C25BB7A8500AC9D21 /* RepositoriesViewController+CollectionView.swift in Sources */,
 				A1B9128725BB30D300AC9D21 /* RepositoriesServiceProtocol.swift in Sources */,
 				A1B912A925BB339000AC9D21 /* BaseCoordinator.swift in Sources */,
 				A1B9128225BB30C200AC9D21 /* RepositoriesViewController.swift in Sources */,

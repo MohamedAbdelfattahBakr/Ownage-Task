@@ -19,6 +19,7 @@ target 'Owange-Task' do
   # UI
     pod 'SkeletonView'
     pod 'SwiftMessages'
+    pod 'RealmSwift'
 
   target 'Owange-TaskTests' do
     inherit! :search_paths

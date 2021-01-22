@@ -9,17 +9,6 @@
 
 import ObjectMapper
 
-class Repositories: Mappable, Codable {
-    
-    var repositoriesResponse : RepositoriesResponse?
-
-    required init?(map: Map) {}
-
-    func mapping(map: Map) {
-        repositoriesResponse <- map["RepositoriesResponse"]
-    }
-}
-
 class RepositoriesResponse: Mappable, Codable {
     
     var id : Int?

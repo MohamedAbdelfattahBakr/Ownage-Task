@@ -26,8 +26,8 @@ extension MoyaProvider {
                     do {
                         if response.isSuccess { // response status code is 200
                             
+                            print (" \n BK_API_RESPONSE ", try response.mapString())
                             let serverResponse = try response.mapArray(T.self)
-                            print(response.data)
                             resolver.fulfill(serverResponse)
                             
                         } else {
@@ -42,33 +42,6 @@ extension MoyaProvider {
                         resolver.reject(ServerError.serialization)
                     }
                     
-                case .failure:
-                    resolver.reject(ServerError.network)
-                }
-            }
-        }
-    }
-    
-    func requestPromiseWithoutResult (_ target: Target) -> Promise<Bool> {
-        
-        return Promise<Bool> { (resolver) in
-            
-            self.request(target) { (result) in
-                
-                switch result {
-                
-                case let .success(response):
-                    if response.isSuccess { // response status code is 200
-                        resolver.fulfill(true)
-                    } else {
-                        if let serverError = try? response.mapObject(ServerErrorModel.self) {
-                            resolver.reject(ServerError.response(error: serverError.errors ?? []))
-                        } else if let serverError = try? response.mapObject(LoginNetworkError.self) {
-                            resolver.reject(ServerError.response(error: [serverError]))
-                        } else {
-                            resolver.reject(ServerError.serialization)
-                        }
-                    }
                 case .failure:
                     resolver.reject(ServerError.network)
                 }
