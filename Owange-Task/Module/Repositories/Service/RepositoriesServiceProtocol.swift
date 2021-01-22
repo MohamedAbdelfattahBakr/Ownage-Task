@@ -8,5 +8,5 @@
 import PromiseKit
 
 protocol RepositoriesServiceProtocol {
-    func fetchRepositories() -> Promise<>
+    func fetchRepositories() -> Promise<RepositoriesResponse>
 }

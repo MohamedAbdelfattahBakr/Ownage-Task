@@ -10,7 +10,7 @@ import Moya_ObjectMapper
 
 class NetworkManager: NSObject {
     
-    lazy var repositoriesAPIProvider: MoyaProvider<RepositoriesAPI> = {
+    lazy var repositoriesProvider: MoyaProvider<RepositoriesAPI> = {
         return  MoyaProvider<RepositoriesAPI>(plugins:([NetworkLoggerPlugin()]))
     } ()
 }

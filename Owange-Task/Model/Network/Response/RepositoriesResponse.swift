@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class RepositoriesResponse : Mappable {
+class RepositoriesResponse : Mappable, Codable {
     
     var id : Int?
     var name : String?
@@ -31,7 +31,7 @@ class RepositoriesResponse : Mappable {
     }
 }
 
-class Owner : Mappable {
+class Owner : Mappable, Codable{
     
     var id : Int?
     var node_id : String?
