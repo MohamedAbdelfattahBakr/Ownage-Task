@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A17FA2E325BB17FC0094FCBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2E225BB17FC0094FCBC /* AppDelegate.swift */; };
+		A17FA2E525BB17FC0094FCBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2E425BB17FC0094FCBC /* SceneDelegate.swift */; };
+		A17FA2E725BB17FC0094FCBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2E625BB17FC0094FCBC /* ViewController.swift */; };
+		A17FA2EA25BB17FC0094FCBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17FA2E825BB17FC0094FCBC /* Main.storyboard */; };
+		A17FA2EC25BB17FD0094FCBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17FA2EB25BB17FD0094FCBC /* Assets.xcassets */; };
+		A17FA2EF25BB17FD0094FCBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17FA2ED25BB17FD0094FCBC /* LaunchScreen.storyboard */; };
+		A17FA2FA25BB17FD0094FCBC /* Owange_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2F925BB17FD0094FCBC /* Owange_TaskTests.swift */; };
+		A17FA30525BB17FD0094FCBC /* Owange_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA30425BB17FD0094FCBC /* Owange_TaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A17FA2F625BB17FD0094FCBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17FA2D725BB17FC0094FCBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17FA2DE25BB17FC0094FCBC;
+			remoteInfo = "Owange-Task";
+		};
+		A17FA30125BB17FD0094FCBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A17FA2D725BB17FC0094FCBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A17FA2DE25BB17FC0094FCBC;
+			remoteInfo = "Owange-Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A17FA2DF25BB17FC0094FCBC /* Owange-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Owange-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17FA2E225BB17FC0094FCBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A17FA2E425BB17FC0094FCBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A17FA2E625BB17FC0094FCBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A17FA2E925BB17FC0094FCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A17FA2EB25BB17FD0094FCBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A17FA2EE25BB17FD0094FCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A17FA2F025BB17FD0094FCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17FA2F525BB17FD0094FCBC /* Owange-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Owange-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17FA2F925BB17FD0094FCBC /* Owange_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owange_TaskTests.swift; sourceTree = "<group>"; };
+		A17FA2FB25BB17FD0094FCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A17FA30025BB17FD0094FCBC /* Owange-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Owange-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17FA30425BB17FD0094FCBC /* Owange_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owange_TaskUITests.swift; sourceTree = "<group>"; };
+		A17FA30625BB17FD0094FCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A17FA2DC25BB17FC0094FCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17FA2F225BB17FD0094FCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17FA2FD25BB17FD0094FCBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17FA2D625BB17FC0094FCBC = {
+			isa = PBXGroup;
+			children = (
+				A17FA2E125BB17FC0094FCBC /* Owange-Task */,
+				A17FA2F825BB17FD0094FCBC /* Owange-TaskTests */,
+				A17FA30325BB17FD0094FCBC /* Owange-TaskUITests */,
+				A17FA2E025BB17FC0094FCBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A17FA2E025BB17FC0094FCBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A17FA2DF25BB17FC0094FCBC /* Owange-Task.app */,
+				A17FA2F525BB17FD0094FCBC /* Owange-TaskTests.xctest */,
+				A17FA30025BB17FD0094FCBC /* Owange-TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A17FA2E125BB17FC0094FCBC /* Owange-Task */ = {
+			isa = PBXGroup;
+			children = (
+				A17FA2E225BB17FC0094FCBC /* AppDelegate.swift */,
+				A17FA2E425BB17FC0094FCBC /* SceneDelegate.swift */,
+				A17FA2E625BB17FC0094FCBC /* ViewController.swift */,
+				A17FA2E825BB17FC0094FCBC /* Main.storyboard */,
+				A17FA2EB25BB17FD0094FCBC /* Assets.xcassets */,
+				A17FA2ED25BB17FD0094FCBC /* LaunchScreen.storyboard */,
+				A17FA2F025BB17FD0094FCBC /* Info.plist */,
+			);
+			path = "Owange-Task";
+			sourceTree = "<group>";
+		};
+		A17FA2F825BB17FD0094FCBC /* Owange-TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				A17FA2F925BB17FD0094FCBC /* Owange_TaskTests.swift */,
+				A17FA2FB25BB17FD0094FCBC /* Info.plist */,
+			);
+			path = "Owange-TaskTests";
+			sourceTree = "<group>";
+		};
+		A17FA30325BB17FD0094FCBC /* Owange-TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A17FA30425BB17FD0094FCBC /* Owange_TaskUITests.swift */,
+				A17FA30625BB17FD0094FCBC /* Info.plist */,
+			);
+			path = "Owange-TaskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A17FA2DE25BB17FC0094FCBC /* Owange-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17FA30925BB17FD0094FCBC /* Build configuration list for PBXNativeTarget "Owange-Task" */;
+			buildPhases = (
+				A17FA2DB25BB17FC0094FCBC /* Sources */,
+				A17FA2DC25BB17FC0094FCBC /* Frameworks */,
+				A17FA2DD25BB17FC0094FCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Owange-Task";
+			productName = "Owange-Task";
+			productReference = A17FA2DF25BB17FC0094FCBC /* Owange-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A17FA2F425BB17FD0094FCBC /* Owange-TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17FA30C25BB17FD0094FCBC /* Build configuration list for PBXNativeTarget "Owange-TaskTests" */;
+			buildPhases = (
+				A17FA2F125BB17FD0094FCBC /* Sources */,
+				A17FA2F225BB17FD0094FCBC /* Frameworks */,
+				A17FA2F325BB17FD0094FCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17FA2F725BB17FD0094FCBC /* PBXTargetDependency */,
+			);
+			name = "Owange-TaskTests";
+			productName = "Owange-TaskTests";
+			productReference = A17FA2F525BB17FD0094FCBC /* Owange-TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A17FA2FF25BB17FD0094FCBC /* Owange-TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A17FA30F25BB17FD0094FCBC /* Build configuration list for PBXNativeTarget "Owange-TaskUITests" */;
+			buildPhases = (
+				A17FA2FC25BB17FD0094FCBC /* Sources */,
+				A17FA2FD25BB17FD0094FCBC /* Frameworks */,
+				A17FA2FE25BB17FD0094FCBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17FA30225BB17FD0094FCBC /* PBXTargetDependency */,
+			);
+			name = "Owange-TaskUITests";
+			productName = "Owange-TaskUITests";
+			productReference = A17FA30025BB17FD0094FCBC /* Owange-TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A17FA2D725BB17FC0094FCBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					A17FA2DE25BB17FC0094FCBC = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A17FA2F425BB17FD0094FCBC = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A17FA2DE25BB17FC0094FCBC;
+					};
+					A17FA2FF25BB17FD0094FCBC = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A17FA2DE25BB17FC0094FCBC;
+					};
+				};
+			};
+			buildConfigurationList = A17FA2DA25BB17FC0094FCBC /* Build configuration list for PBXProject "Owange-Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A17FA2D625BB17FC0094FCBC;
+			productRefGroup = A17FA2E025BB17FC0094FCBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A17FA2DE25BB17FC0094FCBC /* Owange-Task */,
+				A17FA2F425BB17FD0094FCBC /* Owange-TaskTests */,
+				A17FA2FF25BB17FD0094FCBC /* Owange-TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A17FA2DD25BB17FC0094FCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17FA2EF25BB17FD0094FCBC /* LaunchScreen.storyboard in Resources */,
+				A17FA2EC25BB17FD0094FCBC /* Assets.xcassets in Resources */,
+				A17FA2EA25BB17FC0094FCBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17FA2F325BB17FD0094FCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17FA2FE25BB17FD0094FCBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A17FA2DB25BB17FC0094FCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17FA2E725BB17FC0094FCBC /* ViewController.swift in Sources */,
+				A17FA2E325BB17FC0094FCBC /* AppDelegate.swift in Sources */,
+				A17FA2E525BB17FC0094FCBC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17FA2F125BB17FD0094FCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17FA2FA25BB17FD0094FCBC /* Owange_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A17FA2FC25BB17FD0094FCBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A17FA30525BB17FD0094FCBC /* Owange_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17FA2F725BB17FD0094FCBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17FA2DE25BB17FC0094FCBC /* Owange-Task */;
+			targetProxy = A17FA2F625BB17FD0094FCBC /* PBXContainerItemProxy */;
+		};
+		A17FA30225BB17FD0094FCBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A17FA2DE25BB17FC0094FCBC /* Owange-Task */;
+			targetProxy = A17FA30125BB17FD0094FCBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A17FA2E825BB17FC0094FCBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17FA2E925BB17FC0094FCBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A17FA2ED25BB17FD0094FCBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A17FA2EE25BB17FD0094FCBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A17FA30725BB17FD0094FCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A17FA30825BB17FD0094FCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A17FA30A25BB17FD0094FCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Owange-Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.ownage-task.Owange-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A17FA30B25BB17FD0094FCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Owange-Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.ownage-task.Owange-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A17FA30D25BB17FD0094FCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Owange-TaskTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.ownage-task.Owange-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Owange-Task.app/Owange-Task";
+			};
+			name = Debug;
+		};
+		A17FA30E25BB17FD0094FCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Owange-TaskTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.ownage-task.Owange-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Owange-Task.app/Owange-Task";
+			};
+			name = Release;
+		};
+		A17FA31025BB17FD0094FCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Owange-TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.ownage-task.Owange-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Owange-Task";
+			};
+			name = Debug;
+		};
+		A17FA31125BB17FD0094FCBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Owange-TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.ownage-task.Owange-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Owange-Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A17FA2DA25BB17FC0094FCBC /* Build configuration list for PBXProject "Owange-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17FA30725BB17FD0094FCBC /* Debug */,
+				A17FA30825BB17FD0094FCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17FA30925BB17FD0094FCBC /* Build configuration list for PBXNativeTarget "Owange-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17FA30A25BB17FD0094FCBC /* Debug */,
+				A17FA30B25BB17FD0094FCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17FA30C25BB17FD0094FCBC /* Build configuration list for PBXNativeTarget "Owange-TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17FA30D25BB17FD0094FCBC /* Debug */,
+				A17FA30E25BB17FD0094FCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A17FA30F25BB17FD0094FCBC /* Build configuration list for PBXNativeTarget "Owange-TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A17FA31025BB17FD0094FCBC /* Debug */,
+				A17FA31125BB17FD0094FCBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A17FA2D725BB17FC0094FCBC /* Project object */;
+}
