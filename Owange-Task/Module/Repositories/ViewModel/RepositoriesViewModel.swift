@@ -20,11 +20,15 @@ extension RepositoriesViewModel: RepositoriesViewModelProtocol {
             firstly {
                 self.apiCLient.fetchRepositories()
             }.done { [weak self ] (response) in
-                self?.listOfRepositories = response.repositoriesResponse ?? []
+                self?.listOfRepositories = response
                 seal.fulfill_()
             }.catch { error in
                 seal.reject(error)
             }
         }
+    }
+    
+    func getRepositoriesCount () -> Int {
+        return listOfRepositories.count
     }
 }

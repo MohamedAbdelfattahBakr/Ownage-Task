@@ -13,9 +13,9 @@ import ObjectMapper
 
 extension MoyaProvider {
 
-    func requestPromise<T: Mappable> (_ target: Target) -> Promise<T> {
+    func requestPromise<T: Mappable> (_ target: Target) -> Promise<[T]> {
         
-        return Promise<T> { (resolver) in
+        return Promise<[T]> { (resolver) in
             
             self.request(target) { (result) in
                 
@@ -26,7 +26,8 @@ extension MoyaProvider {
                     do {
                         if response.isSuccess { // response status code is 200
                             
-                            let serverResponse = try response.mapObject(T.self)
+                            let serverResponse = try response.mapArray(T.self)
+                            print(response.data)
                             resolver.fulfill(serverResponse)
                             
                         } else {

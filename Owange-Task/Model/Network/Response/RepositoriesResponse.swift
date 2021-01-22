@@ -6,20 +6,21 @@
 //
 
 
-import Foundation
+
 import ObjectMapper
 
-class Repositories : Mappable, Codable {
-    var repositoriesResponse : [RepositoriesResponse]?
+class Repositories: Mappable, Codable {
+    
+    var repositoriesResponse : RepositoriesResponse?
 
     required init?(map: Map) {}
-    
-    func mapping(map: Map) {
-    }
 
+    func mapping(map: Map) {
+        repositoriesResponse <- map["RepositoriesResponse"]
+    }
 }
 
-class RepositoriesResponse : Mappable, Codable {
+class RepositoriesResponse: Mappable, Codable {
     
     var id : Int?
     var name : String?

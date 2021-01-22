@@ -7,6 +7,7 @@
 
 import Moya
 import Moya_ObjectMapper
+import ObjectMapper
 
 class NetworkManager: NSObject {
     
