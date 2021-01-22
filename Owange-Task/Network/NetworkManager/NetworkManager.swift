@@ -5,7 +5,8 @@
 //  Created by Mohammed Bakr on 22.01.2021.
 //
 
-import Foundation
+import Moya
+import Moya_ObjectMapper
 
 class NetworkManager: NSObject {
 

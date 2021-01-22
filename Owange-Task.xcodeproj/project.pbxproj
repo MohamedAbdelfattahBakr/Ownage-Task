@@ -26,6 +26,7 @@
 		A1B9129F25BB31FC00AC9D21 /* RepositoriesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9129E25BB31FC00AC9D21 /* RepositoriesCoordinator.swift */; };
 		A1B912A425BB323A00AC9D21 /* RepositoriesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B912A325BB323A00AC9D21 /* RepositoriesFactory.swift */; };
 		A1B912A925BB339000AC9D21 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B912A825BB339000AC9D21 /* BaseCoordinator.swift */; };
+		A1B912B025BB352A00AC9D21 /* ApisPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B912AF25BB352A00AC9D21 /* ApisPaths.swift */; };
 		A6CCEB48391D43478B0C71E1 /* Pods_Owange_Task_Owange_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C583347A03492D54A37CDA /* Pods_Owange_Task_Owange_TaskUITests.framework */; };
 		D8F42CF0BD061645F99904CA /* Pods_Owange_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5C2C11017733586094F3AA /* Pods_Owange_TaskTests.framework */; };
 /* End PBXBuildFile section */
@@ -78,6 +79,7 @@
 		A1B9129E25BB31FC00AC9D21 /* RepositoriesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesCoordinator.swift; sourceTree = "<group>"; };
 		A1B912A325BB323A00AC9D21 /* RepositoriesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesFactory.swift; sourceTree = "<group>"; };
 		A1B912A825BB339000AC9D21 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		A1B912AF25BB352A00AC9D21 /* ApisPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApisPaths.swift; sourceTree = "<group>"; };
 		BE192A0E356641477BB42027 /* Pods-Owange-Task-Owange-TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task-Owange-TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Owange-Task-Owange-TaskUITests/Pods-Owange-Task-Owange-TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FD3C0B288003BB792C4DF113 /* Pods-Owange-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-TaskTests/Pods-Owange-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF5A95B521E16AD84015EBEE /* Pods-Owange-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Task/Pods-Owange-Task.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,13 +148,13 @@
 		A17FA2E125BB17FC0094FCBC /* Owange-Task */ = {
 			isa = PBXGroup;
 			children = (
+				A1B9125125BB2EB400AC9D21 /* Application */,
 				A1B9125D25BB2F6500AC9D21 /* Dependencies */,
 				A1B9125C25BB2F1400AC9D21 /* Configuration */,
 				A1B9128B25BB313A00AC9D21 /* Network */,
 				A1B9125525BB2ED700AC9D21 /* Support */,
 				A1B9125325BB2EC000AC9D21 /* Model */,
 				A1B9125225BB2EBA00AC9D21 /* Module */,
-				A1B9125125BB2EB400AC9D21 /* Application */,
 			);
 			path = "Owange-Task";
 			sourceTree = "<group>";
@@ -327,6 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				A1B9128D25BB316300AC9D21 /* RepositoriesAPI.swift */,
+				A1B912AF25BB352A00AC9D21 /* ApisPaths.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -614,6 +617,7 @@
 				A1B9128725BB30D300AC9D21 /* RepositoriesServiceProtocol.swift in Sources */,
 				A1B912A925BB339000AC9D21 /* BaseCoordinator.swift in Sources */,
 				A1B9128225BB30C200AC9D21 /* RepositoriesViewController.swift in Sources */,
+				A1B912B025BB352A00AC9D21 /* ApisPaths.swift in Sources */,
 				A1B9129F25BB31FC00AC9D21 /* RepositoriesCoordinator.swift in Sources */,
 				A17FA2E525BB17FC0094FCBC /* SceneDelegate.swift in Sources */,
 				A1B912A425BB323A00AC9D21 /* RepositoriesFactory.swift in Sources */,
