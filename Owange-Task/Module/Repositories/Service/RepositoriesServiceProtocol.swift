@@ -5,8 +5,8 @@
 //  Created by Mohammed Bakr on 22.01.2021.
 //
 
-import Foundation
+import PromiseKit
 
 protocol RepositoriesServiceProtocol {
-    
+    func fetchRepositories() -> Promise<>
 }
