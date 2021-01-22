@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		941D2F877A54798B7BB8B8FB /* Pods_Owange_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC6899116961C4728E3ABA3 /* Pods_Owange_Task.framework */; };
 		A17FA2E325BB17FC0094FCBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2E225BB17FC0094FCBC /* AppDelegate.swift */; };
 		A17FA2E525BB17FC0094FCBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2E425BB17FC0094FCBC /* SceneDelegate.swift */; };
 		A17FA2E725BB17FC0094FCBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2E625BB17FC0094FCBC /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		A17FA2EF25BB17FD0094FCBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17FA2ED25BB17FD0094FCBC /* LaunchScreen.storyboard */; };
 		A17FA2FA25BB17FD0094FCBC /* Owange_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2F925BB17FD0094FCBC /* Owange_TaskTests.swift */; };
 		A17FA30525BB17FD0094FCBC /* Owange_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA30425BB17FD0094FCBC /* Owange_TaskUITests.swift */; };
+		A6CCEB48391D43478B0C71E1 /* Pods_Owange_Task_Owange_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C583347A03492D54A37CDA /* Pods_Owange_Task_Owange_TaskUITests.framework */; };
+		D8F42CF0BD061645F99904CA /* Pods_Owange_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5C2C11017733586094F3AA /* Pods_Owange_TaskTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A5C2C11017733586094F3AA /* Pods_Owange_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Owange_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F4553428ABD22FF7C192DD9 /* Pods-Owange-TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-TaskTests.release.xcconfig"; path = "Target Support Files/Pods-Owange-TaskTests/Pods-Owange-TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		3BC6899116961C4728E3ABA3 /* Pods_Owange_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Owange_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		579FF19883EA4B30A1FD1A1C /* Pods-Owange-Task-Owange-TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task-Owange-TaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Task-Owange-TaskUITests/Pods-Owange-Task-Owange-TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		69C583347A03492D54A37CDA /* Pods_Owange_Task_Owange_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Owange_Task_Owange_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C501E4D4696BBF3C4BD181 /* Pods-Owange-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Task/Pods-Owange-Task.debug.xcconfig"; sourceTree = "<group>"; };
 		A17FA2DF25BB17FC0094FCBC /* Owange-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Owange-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17FA2E225BB17FC0094FCBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A17FA2E425BB17FC0094FCBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		A17FA30025BB17FD0094FCBC /* Owange-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Owange-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17FA30425BB17FD0094FCBC /* Owange_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owange_TaskUITests.swift; sourceTree = "<group>"; };
 		A17FA30625BB17FD0094FCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE192A0E356641477BB42027 /* Pods-Owange-Task-Owange-TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task-Owange-TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Owange-Task-Owange-TaskUITests/Pods-Owange-Task-Owange-TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD3C0B288003BB792C4DF113 /* Pods-Owange-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-TaskTests/Pods-Owange-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF5A95B521E16AD84015EBEE /* Pods-Owange-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Task/Pods-Owange-Task.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941D2F877A54798B7BB8B8FB /* Pods_Owange_Task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F42CF0BD061645F99904CA /* Pods_Owange_TaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6CCEB48391D43478B0C71E1 /* Pods_Owange_Task_Owange_TaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A4DA4CD11195BF76A49AC87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BC6899116961C4728E3ABA3 /* Pods_Owange_Task.framework */,
+				69C583347A03492D54A37CDA /* Pods_Owange_Task_Owange_TaskUITests.framework */,
+				2A5C2C11017733586094F3AA /* Pods_Owange_TaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A17FA2D625BB17FC0094FCBC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				A17FA2F825BB17FD0094FCBC /* Owange-TaskTests */,
 				A17FA30325BB17FD0094FCBC /* Owange-TaskUITests */,
 				A17FA2E025BB17FC0094FCBC /* Products */,
+				F48BF64F26876529307B32C5 /* Pods */,
+				0A4DA4CD11195BF76A49AC87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = "Owange-TaskUITests";
 			sourceTree = "<group>";
 		};
+		F48BF64F26876529307B32C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93C501E4D4696BBF3C4BD181 /* Pods-Owange-Task.debug.xcconfig */,
+				FF5A95B521E16AD84015EBEE /* Pods-Owange-Task.release.xcconfig */,
+				579FF19883EA4B30A1FD1A1C /* Pods-Owange-Task-Owange-TaskUITests.debug.xcconfig */,
+				BE192A0E356641477BB42027 /* Pods-Owange-Task-Owange-TaskUITests.release.xcconfig */,
+				FD3C0B288003BB792C4DF113 /* Pods-Owange-TaskTests.debug.xcconfig */,
+				2F4553428ABD22FF7C192DD9 /* Pods-Owange-TaskTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A17FA30925BB17FD0094FCBC /* Build configuration list for PBXNativeTarget "Owange-Task" */;
 			buildPhases = (
+				0D4573C6825F307004EF2A50 /* [CP] Check Pods Manifest.lock */,
 				A17FA2DB25BB17FC0094FCBC /* Sources */,
 				A17FA2DC25BB17FC0094FCBC /* Frameworks */,
 				A17FA2DD25BB17FC0094FCBC /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A17FA30C25BB17FD0094FCBC /* Build configuration list for PBXNativeTarget "Owange-TaskTests" */;
 			buildPhases = (
+				7238F3817732571734E1ADEC /* [CP] Check Pods Manifest.lock */,
 				A17FA2F125BB17FD0094FCBC /* Sources */,
 				A17FA2F225BB17FD0094FCBC /* Frameworks */,
 				A17FA2F325BB17FD0094FCBC /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A17FA30F25BB17FD0094FCBC /* Build configuration list for PBXNativeTarget "Owange-TaskUITests" */;
 			buildPhases = (
+				F9C01A2AC9763EA4D0B3414F /* [CP] Check Pods Manifest.lock */,
 				A17FA2FC25BB17FD0094FCBC /* Sources */,
 				A17FA2FD25BB17FD0094FCBC /* Frameworks */,
 				A17FA2FE25BB17FD0094FCBC /* Resources */,
@@ -252,6 +296,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D4573C6825F307004EF2A50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Owange-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7238F3817732571734E1ADEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Owange-TaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9C01A2AC9763EA4D0B3414F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Owange-Task-Owange-TaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A17FA2DB25BB17FC0094FCBC /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		A17FA30A25BB17FD0094FCBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93C501E4D4696BBF3C4BD181 /* Pods-Owange-Task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +565,7 @@
 		};
 		A17FA30B25BB17FD0094FCBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF5A95B521E16AD84015EBEE /* Pods-Owange-Task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +584,7 @@
 		};
 		A17FA30D25BB17FD0094FCBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD3C0B288003BB792C4DF113 /* Pods-Owange-TaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +606,7 @@
 		};
 		A17FA30E25BB17FD0094FCBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4553428ABD22FF7C192DD9 /* Pods-Owange-TaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +628,7 @@
 		};
 		A17FA31025BB17FD0094FCBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 579FF19883EA4B30A1FD1A1C /* Pods-Owange-Task-Owange-TaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +648,7 @@
 		};
 		A17FA31125BB17FD0094FCBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE192A0E356641477BB42027 /* Pods-Owange-Task-Owange-TaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
