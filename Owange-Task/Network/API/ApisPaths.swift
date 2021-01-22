@@ -9,7 +9,7 @@ import Foundation
 
 enum ApisPaths {
     enum Base {
-        static let BASE_URL = "https://pastebin.com/raw/bkf64ZUr"
+        static let BASE_URL = "https://pastebin.com/raw/"
     }
 }
 extension ApisPaths {

@@ -9,8 +9,14 @@ import UIKit
 
 protocol Coordinator: class {
     func start()
-}
+    func didChangeLangauege()
 
+}
+extension Coordinator {
+    func didChangeLangauege () {
+        self.start()
+    }
+}
 class BaseCoordinator <T: BaseFactory>: Coordinator {
     
     var container: T!

@@ -8,7 +8,8 @@
 import PromiseKit
 
 extension NetworkManager: RepositoriesServiceProtocol {
-    func fetchRepositories() -> Promise<RepositoriesResponse> {
+    
+    func fetchRepositories() -> Promise<Repositories> {
         return self.repositoriesProvider.requestPromise(RepositoriesAPI.fetchRepositories)
     }
 }

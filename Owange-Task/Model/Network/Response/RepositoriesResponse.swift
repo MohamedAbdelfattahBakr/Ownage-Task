@@ -9,6 +9,16 @@
 import Foundation
 import ObjectMapper
 
+class Repositories : Mappable, Codable {
+    var repositoriesResponse : [RepositoriesResponse]?
+
+    required init?(map: Map) {}
+    
+    func mapping(map: Map) {
+    }
+
+}
+
 class RepositoriesResponse : Mappable, Codable {
     
     var id : Int?

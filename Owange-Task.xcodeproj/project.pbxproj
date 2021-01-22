@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		941D2F877A54798B7BB8B8FB /* Pods_Owange_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC6899116961C4728E3ABA3 /* Pods_Owange_Task.framework */; };
 		A17FA2E325BB17FC0094FCBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2E225BB17FC0094FCBC /* AppDelegate.swift */; };
-		A17FA2E525BB17FC0094FCBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2E425BB17FC0094FCBC /* SceneDelegate.swift */; };
-		A17FA2EA25BB17FC0094FCBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17FA2E825BB17FC0094FCBC /* Main.storyboard */; };
 		A17FA2EC25BB17FD0094FCBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17FA2EB25BB17FD0094FCBC /* Assets.xcassets */; };
 		A17FA2EF25BB17FD0094FCBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A17FA2ED25BB17FD0094FCBC /* LaunchScreen.storyboard */; };
 		A17FA2FA25BB17FD0094FCBC /* Owange_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17FA2F925BB17FD0094FCBC /* Owange_TaskTests.swift */; };
@@ -33,6 +31,10 @@
 		A1B912D325BB534400AC9D21 /* ServerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B912D225BB534400AC9D21 /* ServerError.swift */; };
 		A1B912DB25BB537A00AC9D21 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B912DA25BB537A00AC9D21 /* NetworkError.swift */; };
 		A1B912E325BB540300AC9D21 /* MoyaApiExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B912E225BB540300AC9D21 /* MoyaApiExtension.swift */; };
+		A1B912EE25BB57D900AC9D21 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B912ED25BB57D900AC9D21 /* BaseNavigationController.swift */; };
+		A1B912F625BB582500AC9D21 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B912F525BB582500AC9D21 /* UIApplication.swift */; };
+		A1B9131325BB5C7800AC9D21 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9131225BB5C7800AC9D21 /* Constants.swift */; };
+		A1B9131B25BB5C9500AC9D21 /* Repositories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B9131A25BB5C9500AC9D21 /* Repositories.storyboard */; };
 		A6CCEB48391D43478B0C71E1 /* Pods_Owange_Task_Owange_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C583347A03492D54A37CDA /* Pods_Owange_Task_Owange_TaskUITests.framework */; };
 		D8F42CF0BD061645F99904CA /* Pods_Owange_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5C2C11017733586094F3AA /* Pods_Owange_TaskTests.framework */; };
 /* End PBXBuildFile section */
@@ -63,8 +65,6 @@
 		93C501E4D4696BBF3C4BD181 /* Pods-Owange-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task.debug.xcconfig"; path = "Target Support Files/Pods-Owange-Task/Pods-Owange-Task.debug.xcconfig"; sourceTree = "<group>"; };
 		A17FA2DF25BB17FC0094FCBC /* Owange-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Owange-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17FA2E225BB17FC0094FCBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A17FA2E425BB17FC0094FCBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A17FA2E925BB17FC0094FCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A17FA2EB25BB17FD0094FCBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A17FA2EE25BB17FD0094FCBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A17FA2F025BB17FD0094FCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,6 +92,10 @@
 		A1B912D225BB534400AC9D21 /* ServerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerError.swift; sourceTree = "<group>"; };
 		A1B912DA25BB537A00AC9D21 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		A1B912E225BB540300AC9D21 /* MoyaApiExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaApiExtension.swift; sourceTree = "<group>"; };
+		A1B912ED25BB57D900AC9D21 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		A1B912F525BB582500AC9D21 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		A1B9131225BB5C7800AC9D21 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A1B9131A25BB5C9500AC9D21 /* Repositories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Repositories.storyboard; sourceTree = "<group>"; };
 		BE192A0E356641477BB42027 /* Pods-Owange-Task-Owange-TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task-Owange-TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Owange-Task-Owange-TaskUITests/Pods-Owange-Task-Owange-TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FD3C0B288003BB792C4DF113 /* Pods-Owange-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-TaskTests/Pods-Owange-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF5A95B521E16AD84015EBEE /* Pods-Owange-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Task/Pods-Owange-Task.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				A17FA2E225BB17FC0094FCBC /* AppDelegate.swift */,
-				A17FA2E425BB17FC0094FCBC /* SceneDelegate.swift */,
+				A1B912F525BB582500AC9D21 /* UIApplication.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -226,6 +230,7 @@
 		A1B9125525BB2ED700AC9D21 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				A1B912EB25BB57CE00AC9D21 /* Common */,
 				A17FA2ED25BB17FD0094FCBC /* LaunchScreen.storyboard */,
 				A1B9125625BB2EE800AC9D21 /* Assets */,
 			);
@@ -308,7 +313,7 @@
 			isa = PBXGroup;
 			children = (
 				A1B912AE25BB342F00AC9D21 /* CustomCell */,
-				A17FA2E825BB17FC0094FCBC /* Main.storyboard */,
+				A1B9131A25BB5C9500AC9D21 /* Repositories.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -372,6 +377,23 @@
 			children = (
 			);
 			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		A1B912EB25BB57CE00AC9D21 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A1B912EC25BB57D200AC9D21 /* Base */,
+				A1B9131225BB5C7800AC9D21 /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A1B912EC25BB57D200AC9D21 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A1B912ED25BB57D900AC9D21 /* BaseNavigationController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		F48BF64F26876529307B32C5 /* Pods */ = {
@@ -497,8 +519,8 @@
 			files = (
 				A17FA2EF25BB17FD0094FCBC /* LaunchScreen.storyboard in Resources */,
 				A1B9125825BB2EFE00AC9D21 /* Color.xcassets in Resources */,
+				A1B9131B25BB5C9500AC9D21 /* Repositories.storyboard in Resources */,
 				A17FA2EC25BB17FD0094FCBC /* Assets.xcassets in Resources */,
-				A17FA2EA25BB17FC0094FCBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,10 +649,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B9129725BB318500AC9D21 /* NetworkManager.swift in Sources */,
+				A1B9131325BB5C7800AC9D21 /* Constants.swift in Sources */,
 				A1B912C325BB522800AC9D21 /* Network+Repositories.swift in Sources */,
 				A1B9126925BB301800AC9D21 /* BaseFactory.swift in Sources */,
 				A1B9126125BB2F9C00AC9D21 /* DependencyFactory.swift in Sources */,
 				A1B9128E25BB316300AC9D21 /* RepositoriesAPI.swift in Sources */,
+				A1B912EE25BB57D900AC9D21 /* BaseNavigationController.swift in Sources */,
 				A1B912CB25BB530A00AC9D21 /* MoyaProvider+Promise.swift in Sources */,
 				A17FA2E325BB17FC0094FCBC /* AppDelegate.swift in Sources */,
 				A1B912DB25BB537A00AC9D21 /* NetworkError.swift in Sources */,
@@ -641,9 +665,9 @@
 				A1B912E325BB540300AC9D21 /* MoyaApiExtension.swift in Sources */,
 				A1B912D325BB534400AC9D21 /* ServerError.swift in Sources */,
 				A1B912BB25BB470F00AC9D21 /* RepositoriesResponse.swift in Sources */,
+				A1B912F625BB582500AC9D21 /* UIApplication.swift in Sources */,
 				A1B912B025BB352A00AC9D21 /* ApisPaths.swift in Sources */,
 				A1B9129F25BB31FC00AC9D21 /* RepositoriesCoordinator.swift in Sources */,
-				A17FA2E525BB17FC0094FCBC /* SceneDelegate.swift in Sources */,
 				A1B912A425BB323A00AC9D21 /* RepositoriesFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -680,14 +704,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A17FA2E825BB17FC0094FCBC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A17FA2E925BB17FC0094FCBC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A17FA2ED25BB17FD0094FCBC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -823,15 +839,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/Owange-Task/Configuration/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.ownage-task.Owange-Task";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.Owange-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -843,15 +859,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/Owange-Task/Configuration/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.ownage-task.Owange-Task";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iOS.Owange-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
