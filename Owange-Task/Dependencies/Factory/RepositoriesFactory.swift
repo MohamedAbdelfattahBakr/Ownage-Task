@@ -30,7 +30,11 @@ extension RepositoriesFactory {
     func resolveRepositoriesController(coordinator: RepositoriesCoordinatorProtocol) -> RepositoriesViewController {
         unshared {
             let storyboard = UIStoryboard(name: Constants.Storyboard.repositories, bundle: nil)
-            return storyboard.instantiateViewController(identifier: Constants.StoryboardId.repositories)
+            if #available(iOS 13.0, *) {
+                return storyboard.instantiateViewController(identifier: Constants.StoryboardId.repositories)
+            } else {
+                return RepositoriesViewController()
+            }
         } configure: {
             $0.viewModel = self.resolveRepositoriesViewModel()
             $0.coordinator = coordinator

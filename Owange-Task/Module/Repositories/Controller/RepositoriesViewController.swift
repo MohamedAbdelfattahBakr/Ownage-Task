@@ -41,7 +41,11 @@ class RepositoriesViewController: UIViewController {
     }
     private func setup() {
         setupUI()
-        collectionView.automaticallyAdjustsScrollIndicatorInsets = false
+        if #available(iOS 13.0, *) {
+            collectionView.automaticallyAdjustsScrollIndicatorInsets = false
+        } else {
+            // Fallback on earlier versions
+        }
     }
     private func setupUI() {
         self.title = "Repositories List"
