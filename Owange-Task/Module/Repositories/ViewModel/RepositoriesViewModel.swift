@@ -31,8 +31,10 @@ extension RepositoriesViewModel: RepositoriesViewModelProtocol {
     func getRepositoriesCount () -> Int {
         return listOfRepositories.count
     }
-    
-    func getRepositories () -> [RepositoriesResponse] {
-        return listOfRepositories
+    func getRepositoriesOfIndex (index: Int) -> RepositoriesResponse? {
+        if index < listOfRepositories.count {
+            return listOfRepositories[index];
+        }
+        return nil
     }
 }

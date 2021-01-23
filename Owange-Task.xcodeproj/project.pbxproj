@@ -39,6 +39,7 @@
 		A1B9134B25BB796500AC9D21 /* RepositoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1B9134925BB796500AC9D21 /* RepositoriesCell.xib */; };
 		A1B9135125BB79FC00AC9D21 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9135025BB79FC00AC9D21 /* UICollectionView.swift */; };
 		A1B9135C25BB7A8500AC9D21 /* RepositoriesViewController+CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9135B25BB7A8500AC9D21 /* RepositoriesViewController+CollectionView.swift */; };
+		A1B9136725BB8E6E00AC9D21 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B9136625BB8E6E00AC9D21 /* UIViewX.swift */; };
 		A6CCEB48391D43478B0C71E1 /* Pods_Owange_Task_Owange_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C583347A03492D54A37CDA /* Pods_Owange_Task_Owange_TaskUITests.framework */; };
 		D8F42CF0BD061645F99904CA /* Pods_Owange_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5C2C11017733586094F3AA /* Pods_Owange_TaskTests.framework */; };
 /* End PBXBuildFile section */
@@ -104,6 +105,7 @@
 		A1B9134925BB796500AC9D21 /* RepositoriesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoriesCell.xib; sourceTree = "<group>"; };
 		A1B9135025BB79FC00AC9D21 /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		A1B9135B25BB7A8500AC9D21 /* RepositoriesViewController+CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RepositoriesViewController+CollectionView.swift"; sourceTree = "<group>"; };
+		A1B9136625BB8E6E00AC9D21 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
 		BE192A0E356641477BB42027 /* Pods-Owange-Task-Owange-TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task-Owange-TaskUITests.release.xcconfig"; path = "Target Support Files/Pods-Owange-Task-Owange-TaskUITests/Pods-Owange-Task-Owange-TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FD3C0B288003BB792C4DF113 /* Pods-Owange-TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-TaskTests.debug.xcconfig"; path = "Target Support Files/Pods-Owange-TaskTests/Pods-Owange-TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FF5A95B521E16AD84015EBEE /* Pods-Owange-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owange-Task.release.xcconfig"; path = "Target Support Files/Pods-Owange-Task/Pods-Owange-Task.release.xcconfig"; sourceTree = "<group>"; };
@@ -411,6 +413,7 @@
 		A1B9134F25BB79EB00AC9D21 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A1B9136625BB8E6E00AC9D21 /* UIViewX.swift */,
 				A1B9135025BB79FC00AC9D21 /* UICollectionView.swift */,
 			);
 			path = Extension;
@@ -677,6 +680,7 @@
 				A1B9134A25BB796500AC9D21 /* RepositoriesCell.swift in Sources */,
 				A1B9135125BB79FC00AC9D21 /* UICollectionView.swift in Sources */,
 				A1B9128E25BB316300AC9D21 /* RepositoriesAPI.swift in Sources */,
+				A1B9136725BB8E6E00AC9D21 /* UIViewX.swift in Sources */,
 				A1B912EE25BB57D900AC9D21 /* BaseNavigationController.swift in Sources */,
 				A1B912CB25BB530A00AC9D21 /* MoyaProvider+Promise.swift in Sources */,
 				A17FA2E325BB17FC0094FCBC /* AppDelegate.swift in Sources */,

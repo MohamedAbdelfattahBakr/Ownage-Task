@@ -11,7 +11,8 @@ import PromiseKit
 protocol RepositoriesViewModelProtocol: class {
     func fetchRepositories() -> Promise<Void>
     func getRepositoriesCount() -> Int
-    func getRepositories() -> [RepositoriesResponse]
+    func getRepositoriesOfIndex (index: Int) -> RepositoriesResponse?
+
 }
 protocol RepositoriesCoordinatorProtocol: class {
     func repositoriesFetched()
@@ -35,14 +36,13 @@ class RepositoriesViewController: UIViewController {
         }.catch { error in
             
         }.finally { [weak self] in
-            
+            self?.view.stopSkeletonAnimation()
         }
     }
     private func setup() {
         setupUI()
-        if let flowLayout = collectionView?.collectionViewLayout as? UICollectionViewFlowLayout {
-             flowLayout.estimatedItemSize = UICollectionViewFlowLayout.automaticSize
-           }
+        
+
     }
     private func setupUI() {
         collectionView.delegate = self
