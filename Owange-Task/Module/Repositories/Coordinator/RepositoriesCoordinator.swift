@@ -10,16 +10,18 @@ import UIKit
 class RepositoriesCoordinator: BaseCoordinator<RepositoriesFactory> {
     
     override func start() {
+        
         self.container = RepositoriesFactory()
-    
-        let repositoriesView = self.container.resolveRepositoriesController(coordinator: self)
-        self.navigationController = BaseNavigationController (rootViewController: repositoriesView)
-   
+        
+        let repositoriesViewController = self.container.resolveRepositoriesController(coordinator: self)
+        self.navigationController = BaseNavigationController(rootViewController: repositoriesViewController)
+        self.navigationController?.navigationBar.prefersLargeTitles = true
         UIApplication.shared.restartTo(self.navigationController!)
+
     }
 }
 extension RepositoriesCoordinator: RepositoriesCoordinatorProtocol  {
-    
     func repositoriesFetched() {
+        
     }
 }

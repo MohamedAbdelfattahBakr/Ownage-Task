@@ -41,15 +41,13 @@ class RepositoriesViewController: UIViewController {
     }
     private func setup() {
         setupUI()
-        
-
+        collectionView.automaticallyAdjustsScrollIndicatorInsets = false
     }
     private func setupUI() {
+        self.title = "Repositories List"
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.registerNibFor(cellClass: RepositoriesCell.self)
         collectionView.registerClassFor(cellClass: UICollectionViewCell.self)
-
     }
-
 }
